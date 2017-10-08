@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "lightningflashstudio.github.io/fulgur/gallery/"
-  - JOURNAL: "lightningflashstudio.github.io/fulgur/journal/"
-  - ABOUT: "lightningflashstudio.github.io/fulgur/about/"
+  - GALLERY: "/fulgur/gallery/"
+  - JOURNAL: "/fulgur/journal/"
+  - ABOUT: "/fulgur/about/"
 
 # All translation keys
 translations:
