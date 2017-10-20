@@ -55,6 +55,7 @@ categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 plugins:
  - jekyll-paginate
+ - jekyll-seo-tag
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # SiteMap
