@@ -2,7 +2,7 @@
 title: Lightning Flash Studio
 email: "gai@lightningflashstudio.com"
 description: "Photos & Scribbles"
-url: "http://lightningflashstudio.com"
+url: "https://lightningflashstudio.com"
 baseurl: ""
 pinterest_username: "theRealLfs"
 tumblr_username: "lightningflashstudio"
@@ -30,9 +30,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://lightningflashstudio.com/gallery/"
-  - JOURNAL: "http://lightningflashstudio.com/journal/"
-  - ABOUT: "http://lightningflashstudio.com/about/"
+  - GALLERY: "https://lightningflashstudio.com/gallery/"
+  - JOURNAL: "https://lightningflashstudio.com/journal/"
+  - ABOUT: "https://lightningflashstudio.com/about/"
 
 # All translation keys
 translations:
