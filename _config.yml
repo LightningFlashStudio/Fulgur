@@ -2,7 +2,7 @@
 title: Lightning Flash Studio
 email: "gai@lightningflashstudio.com"
 description: "Photos & Scribbles"
-url: "https://lightningflashstudio.github.io"
+url: "https://lightningflashstudio.om"
 baseurl: "/fulgur"
 pinterest_username: "theRealLfs"
 tumblr_username: "lightningflashstudio"
@@ -30,9 +30,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://lightningflashstudio.github.io/fulgur/gallery/"
-  - JOURNAL: "https://lightningflashstudio.github.io/fulgur/journal/"
-  - ABOUT: "https://lightningflashstudio.github.io/fulgur/about/"
+  - GALLERY: "https://lightningflashstudio.com/fulgur/gallery/"
+  - JOURNAL: "https://lightningflashstudio.com/fulgur/journal/"
+  - ABOUT: "https://lightningflashstudio.com/fulgur/about/"
 
 # All translation keys
 translations:
