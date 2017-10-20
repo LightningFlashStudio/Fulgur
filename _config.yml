@@ -30,9 +30,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://lightningflashstudio.com/fulgur/gallery/"
-  - JOURNAL: "http://lightningflashstudio.com/fulgur/journal/"
-  - ABOUT: "http://lightningflashstudio.com/fulgur/about/"
+  - GALLERY: "http://lightningflashstudio.com/gallery/"
+  - JOURNAL: "http://lightningflashstudio.com/journal/"
+  - ABOUT: "http://lightningflashstudio.com/about/"
 
 # All translation keys
 translations:
