@@ -1,71 +1,62 @@
-# Site settings
+---
 title: Lightning Flash Studio
-email: "gai@lightningflashstudio.com"
-description: "Photos & Scribbles"
-url: "https://lightningflashstudio.com"
-baseurl: ""
-pinterest_username: "theRealLfs"
-tumblr_username: "lightningflashstudio"
-github_username:  "LightningFlashStudio"
-discus_shortname: "lightningflashstudio-com"
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: gai@lightningflashstudio.com
+description: Photos & Scribbles
+url: https://lightningflashstudio.com
+baseurl: ''
+pinterest_username: theRealLfs
+tumblr_username: lightningflashstudio
+github_username: LightningFlashStudio
+discus_shortname: lightningflashstudio-com
 share: true
-
-# Owner/author information
 owner:
-  name:   Kornell Gai
+  name: Kornell Gai
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
-
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
-# Set 'provider' to false to turn commenting off globally.
-#Set 'provider: false' to disable comments globally.
-# Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
-#
-comments :
-  provider : disqus
-  disqus :
-    short_name : "lightningflashstudio-com"
-
-# Internal nav
+comments:
+  provider: disqus
+  disqus:
+    short_name: lightningflashstudio-com
 nav:
-  - GALLERY: "https://lightningflashstudio.com/gallery/"
-  - JOURNAL: "https://lightningflashstudio.com/journal/"
-  - ABOUT: "https://lightningflashstudio.com/about/"
-
-# All translation keys
+- GALLERY: https://lightningflashstudio.com/gallery/
+- JOURNAL: https://lightningflashstudio.com/journal/
+- ABOUT: https://lightningflashstudio.com/about/
 translations:
- # 404.html
   permalink: "/404.html"
-
-# Server
-destination:      	 ./_site
-port:             	 4000
-
-
-# Build settings
+destination: "./_site"
+port: 4000
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+permalink: "/journal/:title/"
 paginate: 5
 paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 plugins:
- - jekyll-paginate
- - jekyll-seo-tag
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# SiteMap
+- jekyll-paginate
+- jekyll-seo-tag
+exclude:
+- less
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
 sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-    include_posts:
-        - "/writing/"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"
+  file: "/sitemap.xml"
+  exclude:
+  - "/atom.xml"
+  - "/feed.xml"
+  - "/feed/index.xml"
+  include_posts:
+  - "/writing/"
+  change_frequency_name: change_frequency
+  priority_name: priority
