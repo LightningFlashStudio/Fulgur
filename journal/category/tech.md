@@ -1,6 +1,6 @@
 ---
 layout: "journal_by_category"
-category: "cat04"
-permalink: "/journal/category/cat04/"
+category: "tech"
+permalink: "/journal/category/tech/"
 header-img: "img/archive-bg.jpg"
 ---

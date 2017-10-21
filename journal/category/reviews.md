@@ -1,6 +1,6 @@
 ---
 layout: "journal_by_category"
-category: "cat03"
-permalink: "/journal/category/cat03/"
+category: "reviews"
+permalink: "/journal/category/reviews/"
 header-img: "img/archive-bg.jpg"
 ---
