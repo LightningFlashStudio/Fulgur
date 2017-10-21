@@ -1,10 +1,6 @@
 ---
-<<<<<<< HEAD:journal/tag/linux.md
-layout: "journal_by_tag"
-tag: "linux"
-permalink: "/journal/tag/linux/"
-header-img: "img/archive-bg.jpg"
 ---
+
 =======
 permalink: "/journal/tag/tag01/"
 layout: journal_by_tag

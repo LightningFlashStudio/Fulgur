@@ -1,10 +1,6 @@
 ---
-<<<<<<< HEAD:journal/category/tech.md
-layout: "journal_by_category"
-category: "tech"
-permalink: "/journal/category/tech/"
-header-img: "img/archive-bg.jpg"
 ---
+
 =======
 permalink: "/journal/category/cat01/"
 layout: journal_by_category
