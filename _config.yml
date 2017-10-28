@@ -42,7 +42,6 @@ paginate_path: "/journal/page:num/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
 google_analytics: UA-108714446-1
-
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
