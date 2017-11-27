@@ -1,0 +1,1 @@
+Hi . *quick waves\* my name is Gai. I am homeschooled and a junior in high school.
