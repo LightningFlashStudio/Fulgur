@@ -1,18 +1,18 @@
 ---
-layout:     post
-title:      "My Devember Contract"
-subtitle:   "Learning Javascript"		
+title: My Devember Contract
+date: 2017-12-02 00:00:00 Z
+categories:
+- tech
+tags:
+- code
+layout: post
+subtitle: Learning Javascript
 active: journal
 image:
-  feature: "codingphoto001.jpg"
-date:       2017-12-02
-header-img: "img/postcover/codingphoto001.jpg"
-tags: [code]
-categories: [tech]
+  feature: codingphoto001.jpg
+header-img: img/postcover/codingphoto001.jpg
 comments: true
 ---
-
-
 
 <b>I, Gai, will participate to the next Devember. My Devember will be learning Javascript. I promise I will program for my Devember for at least an hour, every day of the next December. I will also write a daily public devlog and will make the produced code publicly available on the internet. No matter what, I will keep my promise.</b> 
 
