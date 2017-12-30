@@ -21,7 +21,11 @@ owner:
   name: Kornell Gai
   avatar: avatar.png
   favicon: favicon.ico
+<<<<<<< HEAD
   info: photography & tech website
+=======
+  info: photography website template
+>>>>>>> parent of a3dcb3d... Fixed somethings
 comments:
   provider: disqus
   disqus:
