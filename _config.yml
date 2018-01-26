@@ -46,7 +46,6 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 - octopress-image-tag
-- jekyll-admin
 exclude:
 - less
 - node_modules
