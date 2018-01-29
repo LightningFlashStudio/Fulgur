@@ -45,7 +45,7 @@ google_analytics: UA-108714446-1
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag
-- octopress-image-tag
+- jekyll-avatar
 exclude:
 - less
 - node_modules
