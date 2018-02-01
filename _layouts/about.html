@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html lang="en">
 
+{% include head.html %}
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
@@ -23,10 +26,30 @@ layout: default
     <div class="col-lg-9">
 					{{ content }}
     </div>
-    <div class="col-lg-3" style="text-align: center !important">
+    <div class="col-lg-3">
     </br>
     </br>
-      {% avatar lightningflashstudio size=325 %}
+    <div class="row">
+      <div class="avatar-image">
+      {% avatar lightningflashstudio size=350 %}
+    </div>
+      <div id="quote-div" class="bg-primary">
+        <h4>Quote</h4>
+        <p>"If you are neutral in situations of injustice, you have chosen the side of the oppressor. If an elephant has its foot on the tail of a mouse and you say that you are neutral, the mouse will not appreciate your neutrality." </br>-Desmond Tutu</p>
+      </div>
+      <div id="search-bttn" class="bg-primary">
+        <button type="button" id="esc" style="background-color: transparent; border: none;" onclick="toggleSearch();">Search</button>
+
+      </div>
+      <div id="contact-bttn" class="bg-primary">
+        <a href="mailto:{{ site.email }}" target="_blank"> Contact </a>
+      </div>
+    <!--  <div id="donate-div" class="bg-primary" style="text-align: center; margin-top: 40px; margin-bottom: 40px; word-wrap: break-word;">
+        <h4>Donate</h4>
+        <p id="donate-text">19a1iqnp9uMrrnapceLY11PSPMZr6AMyMH</p>
+      </div>
+    -->
+    </div>
     </div>
   </div>
 </div>
