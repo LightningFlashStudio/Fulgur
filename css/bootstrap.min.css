@@ -5311,7 +5311,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
   margin: 7.5px -15px;
   overflow-x: hidden;
   float: right;
-  color: white;    
+  color: white;
   background-color: #000;
 }
 
@@ -5529,7 +5529,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>.active>a {
-  color: #6ec54d;
+  color: #014062;
   background-color: transparent;
 }
 
