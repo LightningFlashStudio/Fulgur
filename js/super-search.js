@@ -134,7 +134,7 @@ MIT Licensed
 	window.superSearch = init;
 
 })();
-=======
+
 /* super-search
 		Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
