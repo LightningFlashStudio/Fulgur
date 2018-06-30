@@ -1,4 +1,3 @@
-<<<<<<< current
 /* super-search
 Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
@@ -272,4 +271,3 @@ MIT Licensed
 	window.superSearch = init;
 
 })();
->>>>>>> before discard
