@@ -4,19 +4,19 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+  match: "**/*"
 - type: directory
   path: fulgur/gallery
   label: Albums
   create: all
   match: "**/*"
   new_doc_ext: ".html"
-- type: jekyll-posts
-  label: Posts
-  create: all
-  match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: directory
   path: _uploads
   label: Uploads
